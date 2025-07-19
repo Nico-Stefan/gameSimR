@@ -1,0 +1,13 @@
+Package: gameSimR
+Title: Simulate Classic Probability games in R
+Version: 0.0.0.9000
+Authors@R: Nico Stefan
+Description: This package simualtes probabiltiy games like blackjack, monty hall and rock paper scissor
+License: MIT
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports:
+    dplyr,
+    purrr,
+    tibble
