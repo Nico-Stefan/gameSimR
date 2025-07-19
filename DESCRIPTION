@@ -11,3 +11,5 @@ Imports:
     dplyr,
     purrr,
     tibble
+URL: https://github.com/Nico-Stefan/gameSimR
+BugReports: https://github.com/Nico-Stefan/gameSimR/issues
