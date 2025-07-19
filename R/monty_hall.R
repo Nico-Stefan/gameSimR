@@ -17,7 +17,7 @@ simulate_monty_hall <- function(n = 1000, switch = TRUE) {
     shown <- setdiff(1:3, c(choice, prize))
     shown <- sample(shown, 1)
     if (switch) {
-      choice <- setdiff(1:3, c(choice, shown))
+      choice <- sample(setdiff(1:3, c(choice, shown)),1)
     }
     if (choice == prize) {
       wins <- wins + 1
